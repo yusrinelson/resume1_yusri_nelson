@@ -1,0 +1,53 @@
+*{
+   margin:0%;
+   
+}
+.body{
+    background-color: black;
+}
+
+.intro{
+    padding: 20px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.intro h1, p{
+   padding-left: 22px;
+}
+ #navbar{
+    background-color: black;
+    padding: 10px;
+    text-decoration: none;
+ }
+
+ #navbar li{
+    display: inline;
+    padding-right: 20%;
+ }
+ 
+ #img{
+    border-radius: 100%;
+    border: 5px solid black;
+ }
+ * {
+    width: 0 auto;
+  }
+ .bucket{
+   background: pink;
+   display: grid;
+   grid-template-columns: 40% 50%;
+ }
+
+ .bucket-left {
+   position: relative;
+   background: #003147;
+   padding: 40px;
+ }
+
+ .bucket .right {
+   position: relative;
+   background: #fff;
+
+}
