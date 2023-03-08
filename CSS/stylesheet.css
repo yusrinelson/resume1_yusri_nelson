@@ -103,11 +103,58 @@ a {
   border-radius:10px;
   border: 1px solid black;
   padding:10px;
+  margin:3% 5% 0% 0%;
   text-decoration: none !important;
 }
 
 .forms{
+  margin-top:5%;
    border: 1px solid black;
    border-radius: 10px;
    padding:10px;
+
+}
+
+label{
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+#name{
+  border-radius: 10px;
+  height: 30px;
+  width: 80%;
+  margin-bottom:10px;
+  padding-left: 10px;
+  letter-spacing: 5px;
+}
+#mail{
+  border-radius: 10px;
+  height: 30px;
+  width: 80%;
+  padding-left: 10px;
+  letter-spacing: 5px;
+}
+
+select{
+  border-radius: 10px 10px 0px 0px;
+  height: 30px;
+  width: 150px;
+}
+#subject{
+  margin-top:20px;
+}
+
+textarea{
+  padding:10px;
+  border-radius: 0px 10px 10px 10px;
+  width: 90%;
+  height: 100%;
+}
+
+#submit{
+  border-radius: 10px;
+  height: 30px;
+  width: 40%;
 }
